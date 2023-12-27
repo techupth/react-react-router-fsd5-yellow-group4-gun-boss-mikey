@@ -1,11 +1,14 @@
 import EditProductForm from "../components/EditProductForm";
 
+import { Link } from "react-router-dom";
+
+
 function EditProductPage() {
   return (
     <div>
       <h1>Edit Product Page</h1>
       <EditProductForm />
-      <button>Back to Home</button>
+      <Link to="/"><button>Back to Home</button></Link>
     </div>
   );
 }
